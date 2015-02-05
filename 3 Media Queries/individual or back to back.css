@@ -1,0 +1,21 @@
+@media (min-width: 300px) and (max-width: 599px){
+	div{
+		color: red;
+		border: 2px solid red;
+	}
+}
+@media (min-width: 600px) and (max-width: 899px){
+	div{
+		color: red;
+		border-radius: 5px;
+	}
+}
+@media (min-width: 900px){
+	div{
+		color: orange;
+		border-radius: 10px;
+	}
+}
+
+/*the order in which items (@media ...) appear DOES NOT matter*/
+/*have to repeat items like color: red; */

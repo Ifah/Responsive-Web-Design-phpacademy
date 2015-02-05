@@ -1,0 +1,29 @@
+@media (min-width: 300px){
+	div{
+		color: red;
+		border: 2px solid blue;
+	}
+}
+@media (min-width: 600px){
+	div{
+		/*below two items borrowed from 300px*/
+		
+/*		color: red;
+		border: 2px solid blue;*/
+		border-radius: 5px;
+		border: none;
+	}
+}
+@media (min-width: 900px){
+	div{
+		/*below three items borrowed from 300px and 600px*/
+
+/*		color: red;
+		border: 2px solid blue;*/
+		/*border-radius: 5px;*/
+		...
+	}
+}
+
+
+/*the order in which items (@media ...) appear matters*/
